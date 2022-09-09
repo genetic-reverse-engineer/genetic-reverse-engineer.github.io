@@ -195,7 +195,7 @@ This has the most straight-forward representation of a curriculum among the 3...
 * [ ] 605.55J - The Art of Approximation in Science and Engineering
 
 
-## I Don't Know Biologiy/Chemistry
+## Other Biologiy/Chemistry
 
 * [ ] [Undergrad - Computational Biology](https://ocw.mit.edu/courses/6-047-computational-biology-fall-2015/)
 * [ ] [Graduate - Foundations of Computational and Systems Biology](https://ocw.mit.edu/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/)
@@ -211,6 +211,12 @@ This has the most straight-forward representation of a curriculum among the 3...
 
 * https://nyandwi.com/machine_learning_complete/outline/
 
+# Online Courses
+
+* [edX](https://www.edx.org/)
+    * [RiceX](https://www.edx.org/school/ricex)
+    * [GeorgetownX](https://www.edx.org/school/georgetownx)
+* [MITx](https://openlearning.mit.edu/courses-programs/mitx-courses?f%5B0%5D=course_availability%3A62)
 
 # Other Resources
 
