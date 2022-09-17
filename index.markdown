@@ -24,6 +24,11 @@ Helpful:
 * https://eecsis.mit.edu/numbering.html#6.10xx
 * https://eecsis.mit.edu/numbering.html#6.47xx
 
+## To Do
+
+- [ ] Find coursework on biochemistry
+- [ ] Find coursework on macromolecular biology
+- [ ] Find coursework on genetics/epigenetics
 
 ### Required - Mathematics and Programming
 
