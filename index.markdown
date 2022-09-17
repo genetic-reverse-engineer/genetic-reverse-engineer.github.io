@@ -27,6 +27,7 @@ Helpful:
 
 ### Required - Mathematics and Programming
 
+* [ ] 7.01 - This is important
 * [x] 6.100A - Introduction to Computer Science Programming in Python
 * [x] 6.100B - Introduction to Computational Thinking and Data Science 
     * Best satisfied by [6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/7-06-cell-biology-spring-2007/) (Erik Grimson, Fall 2016) - This is Python 3.5, so it might be best to start here
@@ -34,11 +35,13 @@ Helpful:
 
 ### Prerequisites/Refreshers - Biology
 
+* [ ] [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about) - Do this first
+* [ ] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
 * Choose 1
     * [ ] [7.013 - Introduction to Biology](https://ocw.mit.edu/courses/7-013-introductory-biology-spring-2018/) (Angelika Amon, Spring 2018)  - Genomics focus
     * [ ] [7.016 - Introductory Biology](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) (Barbara Imperiali, Fall 2018) - Focus on biological function @ molecular level, gene regulation, etc.
 Note: The above may overlap a lot with 7.03 - Genetics
-* [ ] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
+
 
 ### Prerequisites - Chemistry
 
