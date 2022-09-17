@@ -32,7 +32,6 @@ Helpful:
 
 ### Required - Mathematics and Programming
 
-* [ ] 7.01 - This is important
 * [x] 6.100A - Introduction to Computer Science Programming in Python
 * [x] 6.100B - Introduction to Computational Thinking and Data Science 
     * Best satisfied by [6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/7-06-cell-biology-spring-2007/) (Erik Grimson, Fall 2016) - This is Python 3.5, so it might be best to start here
