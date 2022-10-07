@@ -31,7 +31,7 @@ While identifying classes, the folowing explanations of course numbering at MIT 
 
 ## Required - Mathematics and Programming
 
-`Note: I didn't do these through MIT OCW.  I satisfied all of this through my undergraduate studies and career.`
+> Note: I didn't do these through MIT OCW.  I satisfied all of this through my undergraduate studies and career.
 
 * [x] 6.100A - Introduction to Computer Science Programming in Python
 * [x] 6.100B - Introduction to Computational Thinking and Data Science 
@@ -40,14 +40,15 @@ While identifying classes, the folowing explanations of course numbering at MIT 
 
 ## Start Here - Biology
 
-> A Note: I studied AP Biology and AP Chemistry in high school.  Though the content isn't fresh, I needed to recall significant portions of it to complete the below class.  If you have absolutely no biology or chemistry experience, you will need to find additional courses to satisfy the basics in each.
+> A Note: I studied AP Biology and AP Chemistry in high school.  Though the content isn't fresh, I needed to recall significant portions of it to complete 7.01, and I learned quite a few things that were new to the field since I studied Biology.  
+>
+> If you have absolutely no biology or chemistry experience, you will need to find additional courses to satisfy the basics in each.  5.111SC (below, which I didn't take) may be the right foundation for Chemistry. I have not looked for an analog in Biology.
 
 * [x] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
    * The lectures make this look roughly equivalent to high school AP Chemistry, or at least overlap heavily.  I'm going to assume I remember enough of this and then return to it if I determine otherwise.  If your Chemistry is really weak or non-existent, maybe start here...
 * [x] [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about) - Do this first
     * Definitely had to do this; it's been 23 years since my last biology class.  I tried starting with `7.016 - Introduction to Biology`, but the intro class gave me indications that the content would exceed my understanding at the time.
     * [My class notes](./notes/mit_ocw-7.01.md)
-    * I took this before the [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) class.  Should I have?  I believe that this class was a gentle enough introduction to concepts in Biology and Chemistry with an AP Biology high school background.
 
 ## Prerequisites - Chemistry
 
@@ -58,8 +59,6 @@ While identifying classes, the folowing explanations of course numbering at MIT 
     * [ ] 5.602 - Thermodynamics II and Kinetics
   
 ## Prerequisites - Biology
-
-
 
 * Choose 1
     * [ ] [7.013 - Introduction to Biology](https://ocw.mit.edu/courses/7-013-introductory-biology-spring-2018/) (Angelika Amon, Spring 2018)  - Genomics focus
