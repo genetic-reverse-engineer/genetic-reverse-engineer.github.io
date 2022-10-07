@@ -4,6 +4,9 @@ These are notes while I progressed through [7.01 - Getting up to Speed in Biolog
 
 The content for this course is covered by the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), the gist of which can be found [here](https://creativecommons.org/licenses/by-nc-sa/4.0/).  The notes below are my own, and any modifications to images are annotated below the images.
 
+# Summary
+
+I completed this class over the course of 3-4 weeks at a pace of about 4-7 hours per week.  I did all of the assignments and exercises, and took the final exam.
 
 # 7.01 - Getting Up to Speed in Biology
 

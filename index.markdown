@@ -38,21 +38,29 @@ While identifying classes, the folowing explanations of course numbering at MIT 
     * Best satisfied by [6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/) (Erik Grimson, Fall 2016) - This is Python 3.5, so it might be best to start here
 * [x] 6.1200J - Mathematics for Computer Science
 
-## Prerequisites - Chemistry
+## Start Here - Biology
 
-* [ ] [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) (Kimberly Berkowski, Spring 2005)
-* [ ] 5.601 - Thermodynamics I
-* [ ] 5.602 - Thermodynamics II and Kinetics
-    * Possibly satisfy with [5.60 - Thermodynamics and Kinetics](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) (Spring 2008).  The above classes are invidividually missing from OCW, but they appear to have segregated from the linked course available on OCW.
+> A Note: I studied AP Biology and AP Chemistry in high school.  Though the content isn't fresh, I needed to recall significant portions of it to complete the below class.  If you have absolutely no biology or chemistry experience, you will need to find additional courses to satisfy the basics in each.
 
-## Prerequisites/Refreshers - Biology
-
+* [x] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
+   * The lectures make this look roughly equivalent to high school AP Chemistry, or at least overlap heavily.  I'm going to assume I remember enough of this and then return to it if I determine otherwise.  If your Chemistry is really weak or non-existent, maybe start here...
 * [x] [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about) - Do this first
     * Definitely had to do this; it's been 23 years since my last biology class.  I tried starting with `7.016 - Introduction to Biology`, but the intro class gave me indications that the content would exceed my understanding at the time.
     * [My class notes](./notes/mit_ocw-7.01.md)
-    * I took this before the [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) class.  Should I have?
-* [ ] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
-   * I don't yet know how much of this will be directly important as prerequisites for further courses.  This may be critically necessary, or a good refresher, or mostly repeat.
+    * I took this before the [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) class.  Should I have?  I believe that this class was a gentle enough introduction to concepts in Biology and Chemistry with an AP Biology high school background.
+
+## Prerequisites - Chemistry
+
+* [ ] [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) (Kimberly Berkowski, Spring 2005)
+* [ ] [5.60 - Thermodynamics and Kinetics](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) (Spring 2008)
+  * This seems to have since split into two classes since hte time it was offered, but the professor for the linked class is the same as the one for both of the below classes.:
+    * [ ] 5.601 - Thermodynamics I
+    * [ ] 5.602 - Thermodynamics II and Kinetics
+  
+## Prerequisites - Biology
+
+
+
 * Choose 1
     * [ ] [7.013 - Introduction to Biology](https://ocw.mit.edu/courses/7-013-introductory-biology-spring-2018/) (Angelika Amon, Spring 2018)  - Genomics focus
     * [ ] [7.016 - Introductory Biology](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) (Barbara Imperiali, Fall 2018) - Focus on biological function @ molecular level, gene regulation, etc.
