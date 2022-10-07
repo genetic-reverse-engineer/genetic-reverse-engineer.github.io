@@ -39,7 +39,7 @@ Helpful:
 
 ### Prerequisites/Refreshers - Biology
 
-* [ ] [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about) - Do this first
+* [x] [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about) - Do this first
 * [ ] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
    * I don't yet know how much of this will be directly important as prerequisites for further courses.
 * Choose 1
