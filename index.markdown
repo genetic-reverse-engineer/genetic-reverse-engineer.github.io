@@ -6,13 +6,17 @@ layout: default
 #title: Bioinformatics for Computer Scientists
 ---
 
-# Curricula
+# Introduction
 
-The below outlines three different curricula; MIT, UMBC, and Johns Hopkins.  The checked content is content that I've either completed since beginning this endeavor, or that I satisfied as part of my undergraduate or graduate studies in Computer Science
+The content below is my attempt to explore Biology and progress toward Bioinformatics, on my own time, without initially committing money or sacrificing my existing career.  I have a BS, MS, and 20 years experience in Computer Science.  
 
-## MIT Curriculum  
+The inspiration for this is that I was originally a Biochemistry major at Penn State, but, through a sequence inspirations, found my calling in Computer Science.  I still have a desire to learn Biology, and recent advancements in machine learning and Bioinformatics have made it enticing to cross-train.  However, while trying to pursue this, I discovered that most Bioinformatics material is geared toward beginning as a Biologist or Biochemist and subsequently cross-training into Computer Science; the converse does not seem to exist in the way that would satisfy me intellectually.  In particular, I would like a fundamental understanding of the concepts so that I can understand the implications of the data to be processed.
 
-The content here is designed from a combination of prerequisites I could identify along with MIT's interdisciplinary [BS in CS and Molecular Biology](http://catalog.mit.edu/degree-charts/computer-science-molecular-biology-course-6-7/)
+The content here primarily from [MIT's Open Courseware](https://ocw.mit.edu/).  I constructed the list from  MIT's interdisciplinary [BS in CS and Molecular Biology](http://catalog.mit.edu/degree-charts/computer-science-molecular-biology-course-6-7/) along with guidance and advice from an oncology colleague, who also pointed me to curricula from [the University of Maryland Baltimore County's (UMBC) B.S. in Bioinformatics and Computataional Biology](./umbc.md) and [The Johns Hopkins University MS in Bioinformatics](./hopkins.md).
+
+The checked content is content that I've either completed since beginning this endeavor, or that I satisfied as part of my undergraduate or graduate studies in Computer Science.
+
+## Brief Notes on the MIT Curriculum  
 
 A note on MIT numbering:
 
@@ -20,42 +24,42 @@ A note on MIT numbering:
 * 6 => Electrical Engineering and Computer Science
 * 7 => Biology
 
-Helpful: 
+While identifying classes, the folowing explanations of course numbering at MIT were helpful in identifying whether courses were related or equivalent;
+
 * https://eecsis.mit.edu/numbering.html#6.10xx
 * https://eecsis.mit.edu/numbering.html#6.47xx
 
-## To Do
+## Required - Mathematics and Programming
 
-- [ ] Find coursework on biochemistry
-- [ ] Find coursework on macromolecular biology
-- [ ] Find coursework on genetics/epigenetics
-
-### Required - Mathematics and Programming
+`Note: I didn't do these through MIT OCW.  I satisfied all of this through my undergraduate studies and career.`
 
 * [x] 6.100A - Introduction to Computer Science Programming in Python
 * [x] 6.100B - Introduction to Computational Thinking and Data Science 
-    * Best satisfied by [6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/7-06-cell-biology-spring-2007/) (Erik Grimson, Fall 2016) - This is Python 3.5, so it might be best to start here
+    * Best satisfied by [6.0002 - Introduction to Computational Thinking and Data Science](https://ocw.mit.edu/courses/6-0002-introduction-to-computational-thinking-and-data-science-fall-2016/) (Erik Grimson, Fall 2016) - This is Python 3.5, so it might be best to start here
 * [x] 6.1200J - Mathematics for Computer Science
 
-### Prerequisites/Refreshers - Biology
+## Prerequisites - Chemistry
+
+* [ ] [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) (Kimberly Berkowski, Spring 2005)
+* [ ] 5.601 - Thermodynamics I
+* [ ] 5.602 - Thermodynamics II and Kinetics
+    * Possibly satisfy with [5.60 - Thermodynamics and Kinetics](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) (Spring 2008).  The above classes are invidividually missing from OCW, but they appear to have segregated from the linked course available on OCW.
+
+## Prerequisites/Refreshers - Biology
 
 * [x] [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/about) - Do this first
+    * Definitely had to do this; it's been 23 years since my last biology class.  I tried starting with `7.016 - Introduction to Biology`, but the intro class gave me indications that the content would exceed my understanding at the time.
+    * [My class notes](./notes/mit_ocw-7.01.md)
+    * I took this before the [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) class.  Should I have?
 * [ ] [5.111SC - Principles of Chemical Science](https://ocw.mit.edu/courses/5-111sc-principles-of-chemical-science-fall-2014/) (Catherine Drennan, Fall 2014)
-   * I don't yet know how much of this will be directly important as prerequisites for further courses.
+   * I don't yet know how much of this will be directly important as prerequisites for further courses.  This may be critically necessary, or a good refresher, or mostly repeat.
 * Choose 1
     * [ ] [7.013 - Introduction to Biology](https://ocw.mit.edu/courses/7-013-introductory-biology-spring-2018/) (Angelika Amon, Spring 2018)  - Genomics focus
     * [ ] [7.016 - Introductory Biology](https://ocw.mit.edu/courses/7-016-introductory-biology-fall-2018/) (Barbara Imperiali, Fall 2018) - Focus on biological function @ molecular level, gene regulation, etc.
+
 Note: The above may overlap a lot with 7.03 - Genetics
 
-### Prerequisites - Chemistry
-
-* [ ] [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2005/) (Kimberly Berkowski, Spring 2005)
-* Individually, the following classes are not on OCW, but there may be an older combined one
-    * [ ] 5.601 - Thermodynamics I
-    * [ ] 5.602 - Thermodynamics II and Kinetics
-    * Satisfy with [5.60 - Thermodynamics and Kinetics](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) (Spring 2008)
-
-### Foundational
+## Foundational
 
 * [x] 6.1010 - Fundamentals of Programming - This course is Python-based
     * Best satisfied through ocw by [Introduction to Computer Science and Programming in Python](https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/) (Ana Bell, Fall 2016)
@@ -69,7 +73,7 @@ Note: The above may overlap a lot with 7.03 - Genetics
 * [ ] [7.05 - General Biochemistry](https://ocw.mit.edu/courses/7-05-general-biochemistry-spring-2020/) (Matthew Vander Heiden, Spring 2020)
 * [ ] [7.06 - Cell Biology](https://ocw.mit.edu/courses/7-06-cell-biology-spring-2007/) (Hidde Ploegh, Spring 2007)
 
-### Computational Biology
+## Computational Biology
 
 * [ ] 6.8701 - Computational Biology: Genomes, Networks, Evolution
     * Satisfy with [6.047 - Computational Biology](https://ocw.mit.edu/courses/6-047-computational-biology-fall-2015/) (Manolis Kellis, Fall 2015).  This is the same instructor as 6.8701; in fact, per the re-numbering, this is the same class, just older
@@ -80,7 +84,7 @@ Note: The above may overlap a lot with 7.03 - Genetics
 * [ ] 7.33J - Evolutionary Biology: Concepts, Models, and Computation
     * Possibly satisfy with [6.877J - Computational Evolutionary Biology](https://ocw.mit.edu/courses/6-877j-computational-evolutionary-biology-fall-2005/) (Robert Berwick, Fall 2005) - Same instructor
 
-### Biology Restricted Electives (Select 1)
+## Biology Restricted Electives (Select 1)
 
 These should be sufficiently difficult to find on OCW, I expect
 
@@ -104,7 +108,7 @@ These should be sufficiently difficult to find on OCW, I expect
 * [ ] 7.46	Building with Cells	
 * [ ] 7.49[J]	Developmental Neurobiology
 
-### Not Required but Interesting
+## Not Required but Interesting
 
 * [ ] 5.07SC Biological Chemistry I
 * [ ] 5.08J Biological Chmeistry II
@@ -115,100 +119,13 @@ These should be sufficiently difficult to find on OCW, I expect
 * [ ] [20.482J Foundations of Algorithms and Computational Techniques in Systems Biology](https://ocw.mit.edu/courses/20-482j-foundations-of-algorithms-and-computational-techniques-in-systems-biology-spring-2006/)
 * [ ] [HST.508 Genomics and Computational Biology](https://ocw.mit.edu/courses/hst-508-genomics-and-computational-biology-fall-2002/)
 
-## UMBC
-
-This has the most straight-forward representation of a curriculum among the 3...
-
-### Biology (25 credits)
-
-* [ ] BIOL 141 -  Foundations of Biology I
-* [ ] BIOL 142 -  Foundations of Biology II
-* [ ] ~~BIOL 300L -  Experimental Biology Laboratory~~ - Not experimenting in a lab
-* [ ] BIOL 302 -  Molecular and General Genetics
-* [ ] BIOL 303 -  Cell Biology
-* [ ] BIOL 430 -  Biological Chemistry
-* [ ] BIOL 313 -  Introduction to Bioinformatics
-
-### Bioinformatics Capstone: choose one (4 credits)
-
-* [ ] BIOL 415 - System Biology
-* [ ] BIOL 428 - Computer Applications in Molecular Biology
-* [ ] BIOL 495 - Seminar in Bioinformatics
-
-### Chemistry (13 credits)
-* [ ] CHEM 101 -  Principles of Chemistry I
-* [ ] CHEM 102 -  Principles of Chemistry II
-* [ ] ~~CHEM 102L - Principles of Chemistry Lab~~ - Not experimenting
-* [ ] CHEM 351 -  Organic Chemistry I
-
-### Computer Sciences (17 credits)
-
-* [x] CMSC 201 - Computer Science I for majors
-* [x] CMSC 202 - Computer Science II for majors
-* [x] CMSC 203 - Discrete Structures
-* [x] CMSC 341 - Data Structures
-* [x] CMSC 461 - Database Management Systems
-
-* Physics & Mathematics (19 credits)
-
-* [x] PHYS 121 - Introductory Physics I or PHYS 111 Basic Physics I
-* [x] MATH 151 - Calculus and Analytic Geometry I
-* [x] MATH 152 - Calculus and Analytic Geometry II
-* [x] MATH 221 - Linear Algebra
-* [x] STAT 355 - Introduction to Probability & Statistics for Scientists & Engineers or 
-* [ ] STAT 350 - Statistics with Applications in the Biological Sciences - This might be a good refresher
-
-## Hopkins
-
-### Core
-
-* [ ] 410.602 - Molecular Biology
-* [ ] 410.610 - Epigenetics, Gene Organization & Expression
-* Choose 1
-    * [x] 605.621 - Foundations of Algorithms - I have taken this at Hopkins 
-    * [ ] 605.621 - Algorithms for Bioinformatics 
-* Choose 1
-    * [ ] 605.652 - Biological Databases and Database Tools
-    * [ ] 410.633 - Introduction to Bioinformatics
-* Choose 1
-    * [x] 605.641 - Principles of Database Systems - I have taken this at Hopkins
-    * [ ] 410.634 - Practical Concepts for Bioinformatics
-
-### Electives (Select 6)
-
-* [ ] 605.643 - Semantic Web
-* [ ] 605.651 - Principles of Bioinformatics
-* [ ] 605.653 - Computational Genomics
-* [ ] 605.656 - Computational Drug Discovery and Development
-* [ ] 605.657 - Statistics for Bioinformatics
-* [ ] 605.716 - Modeling and Simulation of Complex Systems
-* [ ] 605.751 - Computational Aspects of Molecular Structure
-* [ ] 605.754 - Analysis of Gene Expression and High-Content Biological Data
-* [ ] 605.755 - Systems Biology
-* [ ] 410.635 - Bioinformatics: Tools for Genome Analysis
-* [ ] 410.639 - Protein Bioinformatics
-* [ ] 410.640 - Molecular Phylogenetic Techniques
-* [ ] 410.666 - Next Generation DNA Sequencing and Analysis
-* [ ] 410.761 - Gene Expression Data Analysis and Visualization
-* [ ] 410.698 - ~~Bioperl~~ - Say no to Perl
-* [ ] 410.712 - ~~Advanced Practical Computer Concepts for Bioinformatics~~ - Don't need this
-* [ ] 410.713 - Advanced Genomics and Genetics Analyses 
-* [ ] 410.734 - Practical Introduction to Metagenomics
-* [ ] 410.736 - Genomic and Personalized Medicine
-
-
-### Miscellaneous
-
-* [ ] 605.55J - The Art of Approximation in Science and Engineering
-
-
 ## Other Biologiy/Chemistry
 
 * [ ] [Undergrad - Computational Biology](https://ocw.mit.edu/courses/6-047-computational-biology-fall-2015/)
 * [ ] [Graduate - Foundations of Computational and Systems Biology](https://ocw.mit.edu/courses/7-91j-foundations-of-computational-and-systems-biology-spring-2014/)
 * [ ] [Bioinformatics and Proteomics](https://ocw.mit.edu/courses/6-092-bioinformatics-and-proteomics-january-iap-2005/)
 
-## I Don't Know Machine Learning
+## My Own Ideas on Getting up to Speed in Machine Learning
 
 * [Microsoft's ML for Beginners](https://github.com/microsoft/ML-For-Beginners)
 * [Introduction to Modeling and Simulation](https://ocw.mit.edu/courses/3-021j-introduction-to-modeling-and-simulation-spring-2012/)
@@ -218,7 +135,7 @@ This has the most straight-forward representation of a curriculum among the 3...
 
 * https://nyandwi.com/machine_learning_complete/outline/
 
-# Online Courses
+## Online Courses
 
 * [edX](https://www.edx.org/)
     * [RiceX](https://www.edx.org/school/ricex)

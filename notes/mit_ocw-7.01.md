@@ -1,6 +1,13 @@
+# Disclaimer:
+
+These are notes while I progressed through [7.01 - Getting up to Speed in Biology](https://openlearninglibrary.mit.edu/courses/course-v1:OCW+Pre-7.01+1T2020/course/).
+
+The content for this course is covered by the [CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode), the gist of which can be found [here](https://creativecommons.org/licenses/by-nc-sa/4.0/).  The notes below are my own, and any modifications to images are annotated below the images.
+
+
 # 7.01 - Getting Up to Speed in Biology
 
-## Key Codes
+## Quick Help: Typing Key Codes
 
 https://usefulshortcuts.com/alt-codes/maths-alt-codes.php
 
@@ -36,13 +43,11 @@ Oh, I see.  A line that ends in OH has no C at the end of the line.  I missed th
 
 I'm guessing water is actually polar because it is [3-dimensional](https://chemistrytalk.org/wp-content/uploads/2022/07/640px-VSEPR_acqua-300x281.png).  I'm focused on the geometry here, but her lesson indicates that the polarity of the atom is more important.  O is electronegative.  What makes it electronegative?
 
-Big lesson: oxygen is electronegative.
+Big lesson: Oxygen is electronegative.
 
-CO2 is non-polar due to the vector sum of electronegativity.  This has to do with its geometry (it's a linear molecule).  It's linear because the C "donates" electrons to the Oxygen (an ionic bond?).  C has 4 valence electrons, O has 6.  O "takes" electrons from C, thus leaving C without a complete outer valence shell.
+CO2 is non-polar due to the vector sum of electronegativity.  This has to do with its geometry (it's a linear molecule).  It's linear because the C "donates" electrons to the Oxygen (an ionic bond?).  C has 4 valence electrons, O has 6.  O and C form double covalent bonds, which means that 2 electrons from O and two from C are shared and contribute to the outer valence shell of each atom, thus completing both shells.
 
 H20 is a covalent bond.  ~~CO2 is an ionic bond (?)~~.  No, CO2 is actually a double-covalent bond!!!  That explains it.  Apparently ionic bonds are made mostly (only?) between metals and non-metals.  Everything else (that's not a Hydrogen bond, which is actually covalent anyway) should "default" to covalence.  CO2 is actually O=C=O.  Thus, CO2 is also non-polar due to its geometry and resultant vector sum of electronegativity.
-
-Identifying bond polarity can be (roughly?) done by looking at the periodic table groups.
 
 ### 1.3 Types of Bonds
 
@@ -113,6 +118,7 @@ What is "electrostatic" bond?
   * Structure built around alpha carbon 
   * Amino acid => alpha carbon + NH2 (amino) + COOH (carboxyl) + R = side group
   ![Amino Acid](./mit-ocw-7.01/amino_acid.png)
+  `Note: The above image is modified from the course content to include annotations about side groups and alpha carbons.`
 
 Exercise: Go look at amino acids and figure out charge and polarity for each...
 * Clearly I need to review polarity and charge
@@ -162,7 +168,7 @@ Aside: This makes me want to do virtual reality representations of molecules
 * Free energy == ▲G  (this delta is alt+30 whereas δ is alt+235)
 * Equation 
   * `▲G = ▲H - T▲S` where H= enthalpy (total energy), T = temperature, S = entropy (unusuable energy)
-    * Aside: Called ▲G b/c of Josiah Willard Gibbs, known as the `Gibbs equation`
+    * Aside: Called ▲G b/c of Josiah Willard Gibbs; known as the `Gibbs equation`
     * I guess the `T` is in here because temperature corresponds to external energy.  No energy exists at absolute 0 
 * Reaction (R), Products (P)
   * R <-> P 
@@ -182,8 +188,8 @@ Aside: This makes me want to do virtual reality representations of molecules
 * Feedback control to ...
 * Positive (make more) and negative (make less) are feedback controls
 * Can be external signals (outside cell) that control pathways
-* Production `->`
-* Inhibition `-|`
+* Production `---->`
+* Inhibition `----|`
 * Production and inhibition are feedback loops.  
 ![Pathways and Feedback Loops](./mit-ocw-7.01/pathways_and_feedback.png)
 
@@ -204,6 +210,8 @@ Aside: This makes me want to do virtual reality representations of molecules
     * golgi apparatus - protein synthesis, modifying polypeptide chains; sorting, shipping proteins and lipids
     * lysosome - breakdown cellular components
     * cytoskeleton, cilia, flagella -> movement, shape, structure
+
+`Note: I really need a good way to remember the functions/contributions of organelles.  Rote memorization isn't working here for how often I encounter this.`
 
 ### 2.5 Cell Division
 
@@ -286,6 +294,8 @@ flowchart LR
 
 For the assignemnt 1, question 3, the RNA primer ends up producing DNA nucleotides, which was new to me.  Why did this happen?
 
+Q: So where do the original DNA strands originally involved end up?  Are they rejoined or split?  Acc. [Wikipedia](https://en.wikipedia.org/wiki/DNA_replication), the chromosome "forks" and each strand ends up joined to a new strand that started from the RNA primer (or primers, depending on whether leading or trailing), which are then replaced with DNA segments and joined following the completion of the replication.
+
 ![Weird Question](./mit-ocw-7.01/Weird_question.png)
 
 ### 3.3 Transcription 
@@ -301,7 +311,7 @@ For the assignemnt 1, question 3, the RNA primer ends up producing DNA nucleotid
     * RNA is copied (transcribed)
     * RNA leaves the template
     * Template and non-template come back together
-* The extra hydroxyl group in ribose makes it more reactive.  Thus DNA is better for storage, but ribose is more transient
+* The extra hydroxyl group in ribose makes it more reactive.  Thus DNA is better for storage, whereas ribose is more transient
 * There are particular DNA sequences that regulate where transcription begins and ends.  Ooh,  what are these? 
 
 ### 3.4 Translation
@@ -333,7 +343,6 @@ For the assignemnt 1, question 3, the RNA primer ends up producing DNA nucleotid
     * tRNAs release their amino acids which covalently join and form a protein
     * Stop codon do not code for any amino acid, so translation stops
 
-
 The codon table illustrates mRNA and the protein it eventually codes to, excluding the tRNA part
 
 So, given a strand of DNA, we should be able to break it apart with the start/stop codes, figure out which RNAs are made, which tRNAs are made, and which proteins are synthesized
@@ -344,11 +353,9 @@ So, given a strand of DNA, we should be able to break it apart with the start/st
 
 ![Bond Types Example](./mit-ocw-7.01/bond_types_example.png)
 
-* Need to review bonds and organelles (2.4)
-
 ## Lecture 4: Inheritance and Genetics
 
-* How does a DNA sequence relate to a trait (aka  phenotype)?
+* How does a DNA sequence relate to a trait (aka phenotype)?
 
 ### 4.1 Genes to Proteins
 
@@ -474,6 +481,8 @@ Cutting DNA:
 ```
     5'G      |____    AATTC3'
     3'CTTAA       |       G5'
+
+    These are two separated segments.
 ```
 
   * Single-stranded DNA left on the ends, which is free to base pair with something else.
@@ -545,6 +554,3 @@ From this primer, DNA synthis happens
 So this results in a repeated cut/polymerization process simply by raising and lowering the temperature
 
 30 cycles : 1 DNA -> 10^9.  Process is exponential 2^n
-
-
-Do problem set 2 + exam
