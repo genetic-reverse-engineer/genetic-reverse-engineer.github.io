@@ -58,7 +58,7 @@ While identifying classes, the folowing explanations of course numbering at MIT 
     * [ ] [5.12 - Organic Chemistry I](https://ocw.mit.edu/courses/5-12-organic-chemistry-i-spring-2003/) (Imparelli and Tobacco, Sptring 2003)
     * Note: Neither of these contains lecture videos, or I would have included only the latest.  Based on the first lecture in each, getting a complete picture without an associated book or lecture video will be difficult
   * [ ] [Open Yale Courses - Chem 125A](https://oyc.yale.edu/chemistry/chem-125a) (McBride, Fall 2008)
-  * [ ] [University of California, Irvine - Chem 51A](https://open.uci.edu/courses/chem_51a_organic_chemistry.html) (King, June 2022) - Wow, this also contains PDFs of the chapter readings
+  * [ ] [University of California, Irvine - Chem 51A](https://open.uci.edu/courses/chem_51a_organic_chemistry.html) (King, June 2022) - This contains class notes
 
 * [ ] [5.60 - Thermodynamics and Kinetics](https://ocw.mit.edu/courses/5-60-thermodynamics-kinetics-spring-2008/) (Spring 2008)
   * This seems to have split into two classes since the time it was offered, but the professor for the linked class is the same as the one for both of the below classes:
