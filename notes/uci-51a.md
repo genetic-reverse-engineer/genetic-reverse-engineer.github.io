@@ -18,7 +18,7 @@ https://usefulshortcuts.com/alt-codes/maths-alt-codes.php
 * π = alt+227
 * σ = alt+229
 * ║ = alt+186
-* 
+* µ = alt+230
 
 ## Week 1, Lecture 1
 
@@ -312,3 +312,57 @@ sp   ↑  ↑
   * More overlap means stronger bond (more overlap among orbitals), less overlap means weaker bond
 * On periodic table, size changes gradually (smaller) as you move to the right.  As you progress down a column, size changes dramatically (larger).
 * A double bond is not twice as strong as a single bond, so a π bond must be weaker than a σ bond because sideways overlap is not as good
+
+## Week 2, Lecture 3 (Lecture 7)
+
+* Nonpolar Covalent bond - e.g., H:H or H-H, same electronegativities
+* Polar Colavalent - e.g., H-CL    H is 2.2, Cl is 3.2
+```
+Representations:
+
+δ+    δ-
+H  -  Cl
+
+H  :  Cl
+
+H - Cl
++--->
+```
+* Ionic - Remember that the EN difference must be >= ~1.8 (excepttion is HF, which is ~1.8 but not ionic)
+* Examples:
+  * NaCl  =>  0.9,3.2
+  * CH    =>  2.5, 2.2 <= This is actually considered non-polar because of how close the EN is
+  * H-O   =>  
+  * H-F   => 
+  * H-Cl  => 
+![](./uci-51a/uci-51a__L7__checmical-attraction-geometry.png)
+* Hydronium ion is hard - The H atoms are actually electron deficient even though the Oxygen is labeled with a positive charge.  This looks like NH3 (amonium)
+* A polar bond has a dipole (negative end and positive end)..  The size of the dipole is indicated by the dipole moment
+  * µ = e x d where e is the magnitude of the charge and d is the distance b/w the charges
+  * Units are D (Debye)
+
+|Bond | µ     | Bond  | µ     |
+|-----|-------|-------|-------|
+|C-N  | 0.22D | H-C   | 0.3D  |
+|C-O  | 0.86D | H-N   | 1.31D |
+|C-F  | 1.51D | H-O   | 1.53D | 
+|C-Cl | 1.56D | C=O   | 2.4D  |
+|C-Br | 1.48D | C≡N   | 3.6D  |
+|C-I  | 1.29D | ||
+
+* The possibly surprising one would be how close C-Cl and C-F are (C-Cl is actually larger), since F is much more electronegative.  F is 4.0, Cl is 3.5, C is 2.5.  The  C-Cl bond is much longer than C-F, though, which is what makes these similar
+* Notes: 
+  * The C-N vs C≡N difference is crazy.  The reason here, even though the triple bond is much shorter, is due to the resonance structures.  They are additive.  
+  * C-O is smaller than C=O even though the C=O is shorter
+  * Why?  It is the magnitude of the charge difference times the distance
+* Polarity of Molecules
+  * µ is the vector sum of all bond dipoles in the molecule
+  * So the geometry matters
+* ==Starting chapter 2: Acids and Bases==
+* Bronsted acide: a species that donates a proton
+* Bronsted base: a species that accepts a proton
+* Bronsted-Lowry acid - must contain a hydrogen
+* Bronsted-Lowry base - must be able to form a bond to a proton
+![](./uci-51a/uci-51a__L7__acids-and-bases.png)
+* Curved arrows show the movement of electrons, not atoms
+![](./uci-51a/uci-51a__L7__curved-arrows.png)
