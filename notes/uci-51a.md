@@ -20,6 +20,7 @@ https://usefulshortcuts.com/alt-codes/maths-alt-codes.php
 * ║ = alt+186
 * µ = alt+230
 * ⇌ = ??????
+* ° = alt+0176
 
 ## Week 1, Lecture 1
 
@@ -224,7 +225,7 @@ H -- C -- C -- O -- H    <-->   H -- C -- C == O -- H
 
 * Using Methane (CH4) as an example:
    * Problem 1: 4 bonds in methane are identical.  Using 3p orbitals and one s orbital would not make 4 identical bonds (due to different bond lenths)
-   * Problems 2: p orbitals are 90 degree angles to each other, but the bond angles in CH4 are 109.5 degrees.
+   * Problem 2: p orbitals are 90 degree angles to each other, but the bond angles in CH4 are 109.5 degrees.
    * Solution: We hybridize the orbitals (this is complex math)
 ![Hybridized](./uci-51a/uci-51a__L5__hybrid_orbitals.png)
 ![Hybridized](./uci-51a/uci-51a__L5__hybrid_orbitals2.png)
@@ -268,6 +269,7 @@ sp   ↑  ↑  ↑
 
 
 ## Week 2, Lecture 2 (Lecture 6)
+
 * Reflection Note: Hybridization is about combining orbitals.  How do we determine the orbitals that need to be combined?  We determine based on the number of bonds and the number of orbitals.  Using Carbon...
   * The terminologies involed are the # of p orbitals that combine with s orbitals.  So, sp3 means that 3 p orbitals combine with 1 s orbita.  sp2 means that 2 p orbitals combine with 1s, and 1 p does not combine.  sp1 means 1s and 1 p orbital combine, leaving 2 alone.  What determines the number of p orbitals that combine?  (Note: Not electrons, orbitals!)
   * Basically, this is what's going on "under the hood" for single, double, and triple bonds
@@ -276,7 +278,7 @@ sp   ↑  ↑  ↑
     * triple bond: s orbital combined with 1 p orbital = sp (leaves 2p alone for 2 π bonds)
     * It's about the bond, not about the valence electrons!
   * If you look at the picture, the double bond means that we have a σ bond and a π bond between the Carbons (hence the "double")
-  * If C is forming 4 bonds (e.g.., CH3CH3), then both 2s orbitals need to merge with both 2p orbitals to make 4 sp4 orbital
+  * If C is forming 4 bonds (e.g., CH3CH3), then both 2s orbitals need to merge with both 2p orbitals to make 4 sp3 orbital
   * If C is forming 3 bonds (e.g., CH2CH2), then 
 * Acetylene: Triple bond (C≡C triple bonds are alkines)
 ```
@@ -344,6 +346,7 @@ H - Cl
 * A polar bond has a dipole (negative end and positive end).  The size of the dipole is indicated by the dipole moment
   * µ = e x d where e is the magnitude of the charge and d is the distance b/w the charges
   * Units are D (Debye)
+  * remember that the dipole moment is a vector.  The geometry matters!
 
 |Bond | µ     | Bond  | µ     |
 |-----|-------|-------|-------|
@@ -393,15 +396,15 @@ H - Cl
   * pKa > 15 => extremely weak acids
 * Need to know these! below
 ![](./uci-51a/uci-51a__L8__pka-chart.png)
-* Note: bright red markings are mine, not the instructor's
+> Note: bright red markings are mine, not the instructor's
 * How do we determine strength of bases?
   * In OChem, we don't use pKb (unlike gchem).  
   * The extremely weak acids are the extremely strong bases
 * General way to do this.  Protenate the base to find the conjugate acid, look on the pKa chart
-* Equilibrium favors the weakest acid side (and thus weakest base side)
+* Equilibrium favors the weakest acid side (and thus ~~weakest~~ strongest base side)
 * Determining ratio of reactants to products
-  * 1:10^x if products are favored
-  * 10^x:1 if reactants are favored
+  * 1:10^x if products are favored, where x is the ▲ pKa
+  * 10^x:1 if reactants are favored, where x is the ▲ pKa
   * Example: CH3COOH (pka = 4.8) + NH3 ⇌ CH3COO- + NH4+ (pka = 9.2)
     * pka difference ~= 4 since rxn favored to the right
     * 1:10^4 reactants:products or 1:10,000
@@ -442,7 +445,7 @@ H - Cl
 ![](./uci-51a/uci-51a__L9__inductive-effect.png)
 * Increasing electronegativity will increase the inductive effect, thus increasing acidity (the "desire" for it to donate a proton/Hydrogen)
 * OH (Hydroxyl group), CN (cyano group), and NO2 (nitro group) are `electron-withdrawing groups` (EWG), but they can't be assigned EN because that is a uniquely atomic property.  Nitro group has the strongest effect; in fact, more powerful than Fluorine.
-* Aside: CH3 is a methyl group.  The methyl group makes it less acidic.  The reason is that the methyl group is slightly electron donating.  Thus the conjugate base is less stable and thus less acidic
+* Aside: CH3 is a methyl group.  The methyl group makes it less acidic.  The reason is that the methyl group is slightly electron donating (as opposed to proton donating).  Thus the conjugate base is less stable and thus less acidic
 * Reviewed:
   1. Elemental Effect
   2. Inductive effect
@@ -457,11 +460,159 @@ H - Cl
     * The reason is the "shape" and proximity of the sp, sp2, and sp3 hybridized shells
     * More s-character in hybridized bonds => electrons closer to nucleus => more stable conj. base => less basic => conj. acid is more acidic
 * Strategy.
-  1. Look for Element effect (look for acidic hydrogens and the atom it's bonded to).  Identify the atoms bound to the acidicy hydrogen.  If the H's are bound to different atoms, use periodic trends to assign relative acidity.
-  2. IF the 2 H's are bound to the same atom, draw the conjugate bases and look for other points of difference
+  1. Look for Element effect (look for acidic hydrogens and the atom it's bonded to).  Identify the atoms bound to the acidic hydrogen.  If the H's are bound to different atoms, use periodic trends to assign relative acidity.
+  2. If the 2 H's are bound to the same atom, draw the conjugate bases and look for other points of difference
   3. Then look for these 3 things:
     * Do electron withdrawing groups stablize the conjugate base?
     * Is the conjugate base resonance stabilized? 
-    * Look at the hybridization of hte conjugate base.  Does increased "s" character stablize the conjugate base?
+    * Look at the hybridization of the conjugate base.  Does increased "s" character stablize the conjugate base?
 ![](./uci-51a/uci-51a__L9__comparing-acidity.png)
 * Aside: Resonance almost always has more effect than hybridization, but she doesn't test this concept this early
+
+## Week 3, Lecture 2 (Lecture 10)
+
+* Lewis acid/base reactions
+  * acid => elect5ron pair acceptor
+  * base => electron pair donor
+* This is not a Hydrogen transaction
+![](./uci-51a/uci-51a__L10__LewisAcids.png)
+* Weird - Why do these reactions even happen?  They result in two charged atoms.  I guess it's all about energy, but how would one predict whether this reaction would happen?
+* Lewis acids are electrophiles => electron-poor
+* Lewis bases are nucleophiles => electron-rich
+* π bond is electron rich
+![](./uci-51a/uci-51a__L10__LewisExample.png)
+* Note: The above has 2 reactions!  She also mentioned that this is the first time we've probably seen a π bond used as a base
+* Basically, Bronsted acid/base reactions involve the transfer of Hydrogen, but Lewis acid/base reactions do not
+> Need to go back and memorize the pKa chart.  She did an exercise
+== starting chapter 3 ==
+* Functional groups
+![](./uci-51a/uci-51a__L10__FunctionalGroupIntro.png)
+* Left side is heteroatom.  Right side is pi bond
+* Functional groups are designated with `R`
+  * The "carbon skeleton" or unreactive portion of the molecule
+```
+    H   H
+    |   |
+H---C---C---H
+    |   |
+    H   H
+
+(no functional group)
+```
+
+```
+    H   H
+    |   |   ..
+H---C---C---O---H
+    |   |   ..
+    H   H
+
+    OH is Hydroxyl functional group
+    The rest is the Carbon skelton
+
+The O has lone pairs, which make it a base and a nucleophile.
+This molecule has the acidic H
+```
+* Most functional groups can be divided into 3 categories
+  * Hydrocarbons containing π bonds
+  * Compounds containing a C-Z σ bond where Z = an electronegative element
+  * Compounds containing a C=O group or a C=N group
+1. Hydrocarbons
+  * If they only have C and H, they can be aliphatic or aromatic
+  * Aliphatic hydrocarbons can be divided into three categories
+    * Alkanes have only C-C σ bonds and no functional groups
+      * CH3CH3 => ethane
+    * Alkenes have a C=C double bond as a functional group
+      * CH2CH2 => ethylene
+    * Alkynes have a C≡C triple bond as a functional group
+      * CHCH => Acetylene
+  * Aromatic hydrocarbons have a ring containing alternating single and double bonds
+    * Carbon ring is a benzene ring
+    * If something is bonded to a benzene ring, it's a phenyl group
+![](./uci-51a/uci-51a__L10__AliphaticAndAromatic.png)
+2. Compounds containing C-Z single bonds
+```
+   |δ+     δ-   
+---C  ---  Z
+   |      
+```
+3. Compounds containing C=O and C≡N
+  * C=O is a carbonyl group
+  * C≡N is either a nitrile or cyano group
+![](./uci-51a/uci-51a__L10__C-Z_FunctionalGroups.png)
+![](./uci-51a/uci-51a__L10__DoubleBondFunctionalGroups.png)
+* Functional groups determine all the following properties of molecules:
+  * Bonding and shape
+  * type and strength of intermolecular forces + physical properties
+  * chemical reactivity
+* Begin intermolecular forces
+
+## Week 4, Lecture 1 (Lecture 11)
+
+* Ionic > Hydrogen > dipole-dipole > van der Waals (bond strength)
+* van der waals => very weak, caused by momentary changes in electron density in a molecule.  These are the only attractive forces present in nonpolar compounds.  
+* As two molecules near, they induce dipoles in one another, causing attraction.  They eventually then collide and subsequently pull apart and separate completely, where the induced dipole is gone
+* 2 factors affect them
+  1. Surface area => larger == more attractive
+  2. Polarizability => measure of how electron cloud around an atom responsds to change in electronic environment
+* Dipole-diploe interactions
+```   
+(example dipoles)
+               ^
+               |
++----->        |
+^     +------> +
+|
+|
++
+```
+* Hydrogen bonds
+![](./uci-51a/uci-51a__L11__BondTypes.png)
+  * Donor must have H bound to O,N,or F.  Acceptor needs an O,N, or F
+  * The Hydrogen bond is much longer and weaker than the covalent H-O bond
+* Physical Properties
+  * Boiling point => energy required to separate molecules and vaporize them.  Strong forces holding molecules together means higher boiling point
+    * If held by weak forces, then takes little energy to reach the boiling point and pull them apart
+    * Ionic compoounds have high boiling points
+    * e.g., NaCl => 1,413°C
+    * e.g., HF => 156°C
+    * with covalent molecules, boiling point debends on functional groups present, surface area, and polarizability.
+    * For compounds of approximately the same molecular weight:
+      * Van der Waals < dipole-dipole < hydrogen
+      ![](./uci-51a/uci-51a__L11__BoilingPointsExample.png)
+      * Example above has to do with surface area.  Branches decrease surface area
+    * Increasing carbon chain length increases surface area, thus increasing the v.d.w attractions
+    * Ethers generally have higher boiling points than alkanes of comparable molecular weight.  THis is because ethers have dipole-dipole and van der waals attractions
+    * Alcohols and amines have higher boiling points b/c they can also form hydrogen bonds
+    * Examples:
+      * methane = CH4 => b.p. -161.7°C  (van der waals only)
+      * Water = H2O => b.p. 100°C (v.d.w, dipole-dipole, and hydrogen)
+      * Ammonia = NH3 => b.p. -33.35°C  (v.d.w, dipole-dipole, and hydrogen).  Much lower than water because it's not a polar compound due to electronegativity
+    * Amines
+      * Primary => 1 R group
+      * Secondary => 2 R groups
+      * Tertiary => 3 R groups  
+      * b.p. drops as the degree of the amine goes up
+      ![](./uci-51a/uci-51a__L11__BoilingPointsAminesExample.png)
+      * The more polarizable, the higher the boiling point.  Ex. CH3F vs CH3I (-78.4 vs 42.4) because I is much larger and thus more polarizable because the electrons are farther from the nucleus
+      * Higher dipole moment means higher boiling point.
+  * Aside: She's able to identify H bonding very quickly.  The keys are 1. H bound to O,N,F in one molecule, and 2. that H must be `attracted to a lone pair` on an O,N, or F on another of the same molecule.
+  * Melting point
+    * Stronger intermolecular forces, higher the melting point.
+    * Given the same functional group, the more symmetrical the molecule, the higher the melting point.  Why?  Symmetrical molecules pack better in a crystal lattice
+    * Same trend as boiling point by way of intermolecular forces
+  * Solubility
+    * Extent to which a compound (`solute`) dissolves in a liquid (`solvent`).
+    * polar and ionic compounds are soluble in polar solvents
+    * nonpolar compounds are soluble in nonpolar or weakly polar solvents
+      * Example: oil and water don't mix.  Oil is a hydrocarbon, and thus non-polar.  Water is polar
+![](./uci-51a/uci-51a__L11__Solubility.png)    
+![](./uci-51a/uci-51a__L11__Solubility2.png)    
+![](./uci-51a/uci-51a__L11__Solubility3.png)  
+
+* Functional Groups and Reactivity
+  * An ether is basic & nucleophilic
+    * H3C - O - CH3  => The O has 2 lon pairs
+  * An amine basic and nucleophilica because of lone pair on nitrogen
+  * `Exception:` Hydronium.  It is not nucleophilic and not basic despite the lone pair on Oxygen.  Why?
+    * Why?  To react, the Oxygen would need to have a 2+ charge, which just doesn't happen.  Oxygen will never have 4 bonds
