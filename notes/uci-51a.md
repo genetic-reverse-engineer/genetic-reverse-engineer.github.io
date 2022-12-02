@@ -19,6 +19,7 @@ https://usefulshortcuts.com/alt-codes/maths-alt-codes.php
 * σ = alt+229
 * ║ = alt+186
 * µ = alt+230
+* ⇌ = ??????
 
 ## Week 1, Lecture 1
 
@@ -218,7 +219,7 @@ H -- C -- C -- O -- H    <-->   H -- C -- C == O -- H
 
 1s         ↑↓
 ```
-* promotion from 2s to 2p costs (consumes) 96 kcal/mole.  Bond with 4 H releases 420 kcal/mole (105 kcal/mole for each CH bond), so net energy is 324 kcal/mole.  If we didn't promote an electron, we would only release 210 kcal/mole.  So, energetically, it's better to promote an electron
+* promotion from 2s to 2p costs (consumes) 96 kcal/mol.  Bond with 4 H releases 420 kcal/mol (105 kcal/mol for each CH bond), so net energy is 324 kcal/mol.  If we didn't promote an electron, we would only release 210 kcal/mole.  So, energetically, it's better to promote an electron
 
 
 * Using Methane (CH4) as an example:
@@ -271,8 +272,9 @@ sp   ↑  ↑  ↑
   * The terminologies involed are the # of p orbitals that combine with s orbitals.  So, sp3 means that 3 p orbitals combine with 1 s orbita.  sp2 means that 2 p orbitals combine with 1s, and 1 p does not combine.  sp1 means 1s and 1 p orbital combine, leaving 2 alone.  What determines the number of p orbitals that combine?  (Note: Not electrons, orbitals!)
   * Basically, this is what's going on "under the hood" for single, double, and triple bonds
     * single bond: s orbital combined with all 3 p orbitals => sp3
-    * double bond: s orbital combined with 2 of the p orbitals => sp2
-    * triple bond: s orbital combined with 1 p orbital = sp
+    * double bond: s orbital combined with 2 of the p orbitals => sp2 (leaves 1p alone for a π bond)
+    * triple bond: s orbital combined with 1 p orbital = sp (leaves 2p alone for 2 π bonds)
+    * It's about the bond, not about the valence electrons!
   * If you look at the picture, the double bond means that we have a σ bond and a π bond between the Carbons (hence the "double")
   * If C is forming 4 bonds (e.g.., CH3CH3), then both 2s orbitals need to merge with both 2p orbitals to make 4 sp4 orbital
   * If C is forming 3 bonds (e.g., CH2CH2), then 
@@ -290,14 +292,16 @@ sp   ↑  ↑
 ```
   * so the C≡C bond has a single σ bond and 2 π bonds
 * Bond lengths & angles
+
 | Bond   | C-C Length | C-H Length | Angle |
-| -------|------------|------------|-------|
+|--------|------------|------------|-------|
 | Single | 1.54A      | 1.10       | 109.5 |
 | Double | 1.33A      | 1.08       | 120   |
 | Triple | 1.20A      | 1.06       | 180   |
+
 * So, as # of bonds increases, bond length decreases FOR ALL BONDS and bond angles increases
-* Bonding in Methyl Cation \[CH3\]+ and Methyl Anion \[CH3\]-
-  * Cation: \[CH3\]+  => 3 bonds, means sp2 bonds
+* Bonding in Methyl Cation [CH3]+ and Methyl Anion [CH3]-
+  * Cation: [CH3]+  => 3 bonds, means sp2 bonds
     * The p orbital in methyl cation is an empty p orbital
   * Anion: we have sp3 orbitals here
     * each bond is a σ bond b/w Hydrogen's 1s and  Carbon's 2sp3
@@ -328,7 +332,7 @@ H  :  Cl
 H - Cl
 +--->
 ```
-* Ionic - Remember that the EN difference must be >= ~1.8 (excepttion is HF, which is ~1.8 but not ionic)
+* Ionic - Remember that the EN difference must be >= ~1.8 (exception is HF, which is ~1.8 but not ionic)
 * Examples:
   * NaCl  =>  0.9,3.2
   * CH    =>  2.5, 2.2 <= This is actually considered non-polar because of how close the EN is
@@ -336,8 +340,8 @@ H - Cl
   * H-F   => 
   * H-Cl  => 
 ![](./uci-51a/uci-51a__L7__checmical-attraction-geometry.png)
-* Hydronium ion is hard - The H atoms are actually electron deficient even though the Oxygen is labeled with a positive charge.  This looks like NH3 (amonium)
-* A polar bond has a dipole (negative end and positive end)..  The size of the dipole is indicated by the dipole moment
+* Hydronium ion is hard - The H atoms are actually electron deficient even though the Oxygen is labeled with a positive charge.  This looks like NH3 (amonium).  The distinction is that the bonds are polarized with Oxygen being more electronegative.  The positive charge on Oxgyen has only to do with the difference between protons and electrons, not the overall bond polarity.
+* A polar bond has a dipole (negative end and positive end).  The size of the dipole is indicated by the dipole moment
   * µ = e x d where e is the magnitude of the charge and d is the distance b/w the charges
   * Units are D (Debye)
 
@@ -352,17 +356,112 @@ H - Cl
 
 * The possibly surprising one would be how close C-Cl and C-F are (C-Cl is actually larger), since F is much more electronegative.  F is 4.0, Cl is 3.5, C is 2.5.  The  C-Cl bond is much longer than C-F, though, which is what makes these similar
 * Notes: 
-  * The C-N vs C≡N difference is crazy.  The reason here, even though the triple bond is much shorter, is due to the resonance structures.  They are additive.  
+  * The C-N vs C≡N difference is crazy.  The reason here, even though the triple bond is much shorter, is due to the  magnitude and the resonance structures.  The resonance structure are effectively additive.
   * C-O is smaller than C=O even though the C=O is shorter
   * Why?  It is the magnitude of the charge difference times the distance
 * Polarity of Molecules
-  * µ is the vector sum of all bond dipoles in the molecule
+  * µ is the `vector sum` of all bond dipoles in the molecule
   * So the geometry matters
 * ==Starting chapter 2: Acids and Bases==
-* Bronsted acide: a species that donates a proton
+* Bronsted acid: a species that donates a proton
 * Bronsted base: a species that accepts a proton
 * Bronsted-Lowry acid - must contain a hydrogen
 * Bronsted-Lowry base - must be able to form a bond to a proton
 ![](./uci-51a/uci-51a__L7__acids-and-bases.png)
 * Curved arrows show the movement of electrons, not atoms
 ![](./uci-51a/uci-51a__L7__curved-arrows.png)
+
+## Week 3, Lecture 1 (Lecture 8)
+
+⇌
+(Aside: I don't know why, but I find this topic not as interesting)
+
+* At equilibrium, the weaker acid and weaker base are the major species found in the reaction mixture
+* amphoteric compounds can act as both acids and bases.  Water is the most popular example.  Acetic acid is another. CH3COOH.  Ammonia is also amphoteric
+![](./uci-51a/UCI-51A__L8__acetic-acid.png)
+* Acid + Base ⇌ Conj. base + Conj. acid
+* Strong acids have weak conj. bases and vv.
+* The stronger pair will be on the left side of the equation
+* Equilibrium constant (K_eq) = (concentration of reactants) / (concentration of products)
+  * ([H2O+][A-]) / ([HA][H2O])
+  * pKa is for dilute solutions = K_eq[H2O] = [H3O+][A-] / [HA]
+  * pKa = -log_10 Ka
+* larger pKa = weaker acid
+  * pKa < 1 => very strong acid
+  * pKa ~= 1-5 => moderate acid
+  * pKa ~= 5-15 => weak acids
+  * pKa > 15 => extremely weak acids
+* Need to know these! below
+![](./uci-51a/uci-51a__L8__pka-chart.png)
+* Note: bright red markings are mine, not the instructor's
+* How do we determine strength of bases?
+  * In OChem, we don't use pKb (unlike gchem).  
+  * The extremely weak acids are the extremely strong bases
+* General way to do this.  Protenate the base to find the conjugate acid, look on the pKa chart
+* Equilibrium favors the weakest acid side (and thus weakest base side)
+* Determining ratio of reactants to products
+  * 1:10^x if products are favored
+  * 10^x:1 if reactants are favored
+  * Example: CH3COOH (pka = 4.8) + NH3 ⇌ CH3COO- + NH4+ (pka = 9.2)
+    * pka difference ~= 4 since rxn favored to the right
+    * 1:10^4 reactants:products or 1:10,000
+    * so, reaction has essentially gone to completion (equilibriums actually always go back and forth)
+  * Equation is K_eq = 10^-(pKa reactant acid - pka product acid)
+* Example question: which of the following bases is strong enough to deprotenate acetic acid (CH3CO2H)
+  * HC3CO2H: pka = 4.8
+  * conj. acid of H-: H2 pka 35
+  * conj. acid of CL-: HCl pka -7
+  * conj. acid of pyridine (C5H5...): pka = 5.2
+    * so, the best one will be H- because the pka of the conjugate acid is higher
+    * HCl would never work because of lower pka
+    * pyridine is higher, but not enough; too close in pka
+* Relationship b/w structure and acidity
+  * Four factors affect acidity of H-A
+    1. The Element Effect (`most important`)
+    2. Inductive effects
+    3. Resonance effects
+    4. Hybridization effects
+  * The Element Effect
+    * acidity increases as you move to the right across any period
+    * H3C-H: pka=48
+    * H2N-H: pka=38
+    * HO-H: pka=15.7
+    * F-H: pka=3.2
+![](./uci-51a/uci-51a__L8__acidity-trends.png)
+    * Acidity increases as we `descend` a vertical column in the periodic table
+    * B/c when you go down a column, the size increases dramatically.  Size becomes more important than EN
+    * Aside: I'm betting this is because larger atoms have a weaker hold on a Hydrogen (proton), and thus are more "willing" to donate it.
+    * Less electron density in larger atom means it's more stable.  More stable = less basic
+  * Inductive Effect
+    * Presence of electronegative atoms.
+      * Compare CH3CH2O-H (pka=16) and CF3CH2O-H (pka=12.4)
+      * The 3 Fluorines are so strongly EN that they pull electron density away from Oxygen, making it less negative => more stable => less basic => more acidic conjugate acid
+    
+## Week 3, Lecture 2 (Lecture 9)
+
+![](./uci-51a/uci-51a__L9__inductive-effect.png)
+* Increasing electronegativity will increase the inductive effect, thus increasing acidity (the "desire" for it to donate a proton/Hydrogen)
+* OH (Hydroxyl group), CN (cyano group), and NO2 (nitro group) are `electron-withdrawing groups` (EWG), but they can't be assigned EN because that is a uniquely atomic property.  Nitro group has the strongest effect; in fact, more powerful than Fluorine.
+* Aside: CH3 is a methyl group.  The methyl group makes it less acidic.  The reason is that the methyl group is slightly electron donating.  Thus the conjugate base is less stable and thus less acidic
+* Reviewed:
+  1. Elemental Effect
+  2. Inductive effect
+    * Inductive effect is the pull of electron density through σ bonds caused by electronegative atoms.  Electronegative atoms stablize regions of high electron denisty by an electron-withdrawing inductive effect.
+    * Inductive effect decreases as the EWG gets further away.
+![](./uci-51a/uci-51a__L9__inductive-effect2.png)
+* New: 
+  3. Resonance
+![](./uci-51a/uci-51a__L9__resonance-and-acidity.png)
+  4. Hybridization Effects
+![](./uci-51a/uci-51a__L9__hybridization-effect.png)
+    * The reason is the "shape" and proximity of the sp, sp2, and sp3 hybridized shells
+    * More s-character in hybridized bonds => electrons closer to nucleus => more stable conj. base => less basic => conj. acid is more acidic
+* Strategy.
+  1. Look for Element effect (look for acidic hydrogens and the atom it's bonded to).  Identify the atoms bound to the acidicy hydrogen.  If the H's are bound to different atoms, use periodic trends to assign relative acidity.
+  2. IF the 2 H's are bound to the same atom, draw the conjugate bases and look for other points of difference
+  3. Then look for these 3 things:
+    * Do electron withdrawing groups stablize the conjugate base?
+    * Is the conjugate base resonance stabilized? 
+    * Look at the hybridization of hte conjugate base.  Does increased "s" character stablize the conjugate base?
+![](./uci-51a/uci-51a__L9__comparing-acidity.png)
+* Aside: Resonance almost always has more effect than hybridization, but she doesn't test this concept this early
